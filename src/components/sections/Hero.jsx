@@ -12,7 +12,10 @@ const Hero = () => {
           I'm <span className="highlight">Debby</span>
         </h1>
         <p className="hero-subtitle">
-          A curious learner, a creative dreamer &amp; a budding developer 🚀
+          A curious learner, a creative dreamer &amp; a budding developer. <br/>
+        I'm a student interested in web development and technology. <br/>
+        This website is a simple single-page application built using React components,
+        HTML structure, and CSS styling as part of my leraning process.
         </p>
         <div className="hero-buttons">
           <Button href="#about" variant="primary">Learn About Me</Button>

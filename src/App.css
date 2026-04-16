@@ -32,7 +32,6 @@ main {
   flex: 1;
 }
 
-/* Shared section styles used across sections */
 .section-title {
   font-family: 'Pacifico', cursive;
   font-size: clamp(2rem, 4vw, 3rem);
