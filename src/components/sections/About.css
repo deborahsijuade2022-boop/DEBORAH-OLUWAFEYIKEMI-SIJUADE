@@ -1,0 +1,30 @@
+.about {
+  padding: 6rem 3rem;
+  background: linear-gradient(180deg, #fff5fb 0%, #ffffff 100%);
+  text-align: center;
+}
+
+.section-header {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-family: 'Pacifico', cursive;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--text);
+  margin: 0 0 0.5rem;
+}
+
+.section-sub {
+  font-family: 'Nunito', sans-serif;
+  color: var(--text-light);
+  font-size: 1.05rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}

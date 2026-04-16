@@ -1,0 +1,54 @@
+.hobbies {
+  padding: 6rem 3rem;
+  text-align: center;
+  background: #ffffff;
+}
+
+.hobbies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hobby-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: linear-gradient(135deg, #fff0f8, #ffe8f4);
+  border: 2px solid var(--accent);
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
+  cursor: default;
+  transition: transform 0.25s, box-shadow 0.25s, background 0.25s;
+  animation: popIn 0.5s ease both;
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.7); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.hobby-chip:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(255, 107, 157, 0.25);
+  background: linear-gradient(135deg, var(--primary), #ff91c0);
+}
+
+.hobby-chip:hover .hobby-name {
+  color: white;
+}
+
+.hobby-emoji {
+  font-size: 1.4rem;
+}
+
+.hobby-name {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--text);
+  transition: color 0.25s;
+}
